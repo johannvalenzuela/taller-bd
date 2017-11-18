@@ -5,3 +5,5 @@
 \i reserva.sql
 \i transaccion.sql
 \i transaccion_estado.sql
+\i guia.sql
+\i agencia.sql
