@@ -1,6 +1,6 @@
-CREATE SEQUENCE sec_ciudades;
+CREATE OR REPLACE SEQUENCE sec_ciudades;
 
-CREATE TABLE Ciudades (
+CREATE OR REPLACE TABLE Ciudades (
     id_ciudad INTEGER NOT NULL DEFAULT nextval('sec_ciudades'),
     nombre_ciudad VARCHAR(100),
     id_pais INTEGER,
