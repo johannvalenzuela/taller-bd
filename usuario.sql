@@ -3,6 +3,7 @@ CREATE OR REPLACE SEQUENCE sec_usuarios;
 CREATE OR REPLACE TABLE Usuarios(
     id_usuario INTEGER NOT NULL DEFAULT nextval('sec_usuarios'),
     rut_usuario VARCHAR(12),
+    password_usuario VARCHAR(32),
     nacionalidad_usuario INTEGER,
     registro_usuario DATE,
     ultima_modificacion_usuario DATE,
