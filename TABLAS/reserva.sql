@@ -7,6 +7,6 @@ CREATE OR REPLACE TABLE Reservas (
     usuario_reserva INTEGER,
     servicio_reserva INTEGER,
     CONSTRAINT pk_paises PRIMARY KEY (id_servicio),
-    constraint fk_reservas_usuarios FOREIGN KEY (usuario_reserva) REFERENCES Usuarios(id_usuario),
-    constraint fk_reservas_servicios foreign key (servicio_reserva) REFERENCES Servicios(id_servicio)
+    CONSTRAINT fk_reservas_usuarios FOREIGN KEY (usuario_reserva) REFERENCES Usuarios(id_usuario),
+    CONSTRAINT fk_reservas_servicios FOREIGN KEY (servicio_reserva) REFERENCES Servicios(id_servicio)
 )
