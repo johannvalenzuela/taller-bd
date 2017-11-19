@@ -1,6 +1,6 @@
 CREATE OR REPLACE SEQUENCE sec_agencias_guias;
 
-CREATE OR REPLACE TABLE Rutas_Destinos (
+CREATE OR REPLACE TABLE Agencias_Guias (
     id_agencia_guia INTEGER NOT NULL DEFAULT nextval('sec__agencias_guias'),
     agencia INTEGER,
     guia INTEGER,
