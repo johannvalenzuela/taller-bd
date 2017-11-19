@@ -6,7 +6,7 @@ CREATE OR REPLACE TABLE Reservas (
     fecha_final_reserva DATE NOT NULL,
     usuario_reserva INTEGER,
     servicio_reserva INTEGER,
-    CONSTRAINT pk_paises PRIMARY KEY (id_servicio),
+    CONSTRAINT pk_reservas PRIMARY KEY (id_reserva),
     CONSTRAINT fk_reservas_usuarios FOREIGN KEY (usuario_reserva) REFERENCES Usuarios(id_usuario),
     CONSTRAINT fk_reservas_servicios FOREIGN KEY (servicio_reserva) REFERENCES Servicios(id_servicio)
 )
