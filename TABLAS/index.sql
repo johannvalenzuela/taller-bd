@@ -7,3 +7,9 @@
 \i transaccion_estado.sql
 \i guia.sql
 \i agencia.sql
+\i destino.sql
+\i rutas.sql
+\i rutas_destinos.sql
+\i viaje.sql
+\i viajes_rutas.sql
+\i guias_rutas.sql
