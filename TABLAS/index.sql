@@ -13,3 +13,4 @@
 \i viaje.sql
 \i viajes_rutas.sql
 \i guias_rutas.sql
+\i agencias_guias.sql
